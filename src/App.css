@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Alfa Slab One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alfa Slab One Regular'), local('AlfaSlabOne-Regular'),
+    url('./assets/fonts/alfa-slab-one-v7-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./assets/fonts/alfa-slab-one-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Pragati Narrow';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Pragati Narrow Bold'), local('PragatiNarrow-Bold'),
+    url('./assets/fonts/pragati-narrow-v3-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./assets/fonts/pragati-narrow-v3-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  color: #222;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font: 700 50px Alfa Slab One, cursive;
+}
+
+span {
+  font-family: 'Pragati Narrow', cursive;
+  font: 22px Pragati Narrow, cursive;
+}
