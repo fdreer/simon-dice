@@ -39,7 +39,6 @@ const usePlay = () => {
 
     if (sequence[currentIndex] != color) {
       setError(true)
-      // setCurrentIndex(0)
       setCurrentButton(sequence[currentIndex])
       await new Audio(errorSound).play()
       return

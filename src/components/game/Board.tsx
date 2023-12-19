@@ -37,7 +37,7 @@ const Board = () => {
             $i={i}
             $active={currentButton === i + 1}
             onClick={() => {
-              onPlay(color, sound)
+              onPlay(Number(color), sound)
             }}
           />
         ))}
