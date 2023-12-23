@@ -12,10 +12,10 @@ export const StyledButton = styled.article<{
   transform-origin: 100% 100%;
   background-color: ${props => props.$hex};
   transform: rotate(${props => props.$i * 90}deg);
-  filter: brightness(${props => (props.$active ? 2 : 1)});
+  filter: brightness(${props => (props.$active ? 2.5 : 1)});
 
   &:active {
-    filter: brightness(200%);
+    filter: brightness(250%);
   }
 `
 
