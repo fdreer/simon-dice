@@ -23,6 +23,9 @@
   margin: 0 auto;
   text-align: center;
   color: #222;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
 }
 
 h1 {

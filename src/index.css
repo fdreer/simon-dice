@@ -22,3 +22,8 @@ body {
   place-items: center;
   min-width: 320px;
 }
+
+main {
+  padding-top: 45px;
+  flex-grow: 1;
+}
